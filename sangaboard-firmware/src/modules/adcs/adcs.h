@@ -7,13 +7,13 @@
 #include <Arduino.h>
 
 void adcs_setup();
-void adcs_loop();
+// void adcs_loop();
 
 extern const Command adc_commands[];
 
-void adc_read(int);
+void adc_read(void);
 void adc_device(String);
-// void which_device(void);
+void which_device(void);
 const uint8_t adcs[]={A0,A1,A2};
 #define ADCS_H
 #endif
