@@ -17,8 +17,8 @@
     #define HELP
     #define STAGE
     #define ADCS
-    #define ENDSTOPS
-    #define LIGHT_SENSOR
+ //   #define ENDSTOPS
+ //   #define LIGHT_SENSOR
 
     //module configs
     #ifdef STAGE

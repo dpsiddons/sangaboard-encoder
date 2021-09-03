@@ -12,9 +12,9 @@ void adcs_setup();
 extern const Command adc_commands[];
 
 void adc_read(void);
-void adc_device(String);
+void adc_device(uint8);
 void which_device(void);
-const uint8_t adcs[]={A0,A1,A2};
+const uint8_t adcs[]={0,1,2,3};
 #define ADCS_H
 #endif
 #endif
